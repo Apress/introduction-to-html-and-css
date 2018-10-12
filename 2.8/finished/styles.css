@@ -1,0 +1,29 @@
+body {
+    font-family: Oswald, sans-serif;
+}
+
+h1 {
+    color: #053B0A;
+    font-size: 3em;
+    margin-bottom: 75px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+a {
+    font-size: 1.5em;
+    padding: 10px;
+    border: 5px solid #053b0a;
+}
+
+footer {
+    margin:0;
+    padding: 40px;
+    text-align: center;
+}

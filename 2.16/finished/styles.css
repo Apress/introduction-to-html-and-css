@@ -1,0 +1,127 @@
+body {
+    font-family: Oswald, sans-serif;
+}
+
+header {
+    background-color: #053b0a;
+    height: 230px;
+    margin-bottom: 125px;
+    position: relative;
+}
+
+.socialicons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.socialicons img {
+    width: 35px;
+    padding-left: 20px;
+}
+
+nav {
+    width: 778px;
+    margin: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+}
+
+nav a {
+    color: #053b0a;
+    font-size: 2em;
+    text-decoration: none;
+    width: 100px;
+    display: block;
+    text-align: center;
+}
+
+nav img {
+    width: 100px;
+}
+
+nav li {
+    padding-right: 126px;
+}
+
+main {
+    width: 1500px;
+    margin: auto;
+}
+
+.banners a {
+    display: block;
+    width: 480px;
+    height: 100px;
+    color: #ffffff;
+    background-color: #053b0a;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 0 0 0;
+    font-size: 3em;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+
+.banners a:hover {
+    color: #053b0a;
+    background-color: #ffffff;
+}
+
+#southwest, #cascades, #yellowstone, #history, #nature {
+    height: 500px;
+    position: relative;
+}
+
+#southwest {
+    background-image: url("images/whitesandsbanner.jpg");
+}
+
+#cascades {
+    background-image: url("images/mtrainierbanner.jpg");
+}
+
+#yellowstone {
+    background-image: url("images/yellowstonebanner.jpg");
+}
+
+#history {
+    background-image: url("images/mtrushmorebanner.jpg");
+}
+
+#nature {
+    background-image: url("images/yosemitebanner.jpg");
+}
+
+h1 {
+    color: #053B0A;
+    font-size: 3em;
+    margin-bottom: 75px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+main a {
+    font-size: 1.5em;
+    padding: 10px;
+    border: 5px solid #053b0a;
+}
+
+footer {
+    margin:0;
+    padding: 40px;
+    text-align: center;
+}
